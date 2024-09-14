@@ -4,7 +4,7 @@ var map = L.map('map').setView([-18.010, -70.24], 13); // Coordenadas iniciales 
 // Añade el mapa base desde OpenStreetMap
 L.tileLayer('https://.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 // Añade un marcador al mapa
