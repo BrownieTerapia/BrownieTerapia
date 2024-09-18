@@ -1,5 +1,5 @@
 // Inicializa el mapa y establece las coordenadas iniciales
-var map = L.map('map').setView([-18.010, -70.24], 13); // Coordenadas iniciales y zoom
+//var map = L.map('map').setView([-18.010, -70.24], 13); // Coordenadas iniciales y zoom
 
 // Añade el mapa base desde OpenStreetMap
 L.tileLayer('https://.tile.openstreetmap.org/{z}/{x}/{y}.png', {
