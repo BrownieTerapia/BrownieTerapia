@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend");
+header {
+    background-color: #FF8189;
+    color: white;
+    text-align: center;
+    padding: 27px;
+    margin: 0px;
+    font-size: 32px;
+    font-family: 'Lexend';
+    overflow: hidden;
+    border-radius: 0 0 80% 80% / 80%;
+    align-items: center;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+section {
+    text-align: center;
+    font-size: medium;
+    margin: 23px;
+    font-family: 'Lexend';
+}
+
+.detalles{
+    margin: 40px;
+    font-size: larger;
+
+}
