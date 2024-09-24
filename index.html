@@ -6,8 +6,7 @@
 		<title>Puntos de Venta</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@latest/dist/leaflet.css" />
-		<link href='https://fonts.googleapis.com/css?family=Lexend' rel='stylesheet'>
-		<link rel="stylesheet" href="Control.FullScreen.css" />
+		<link rel="stylesheet" href="style.css" />
 		<style type="text/css">
 			#map {
 				width: 700px;
@@ -15,41 +14,24 @@
 				height: 433px;
 			}
 		</style>
-		<style> 
-		header {
-            background-color: #FF8189;
-            color: white;
-            text-align: center;
-            padding: 27px;
-            font-size: 32px;
-            font-family: 'Lexend';
-	    overflow: hidden;
-	    border-radius: 0 0 80% 80% / 80%;
-        }
-        section {
-            margin: 23px;
-            font-family: 'Lexend';
-        }
-        </style>
 		<script src="https://unpkg.com/leaflet@latest/dist/leaflet.js"></script>
 		
 	</head>
 	<body>
 	    <header>
-        Brownie Terapia
+        <a>	
+			<img src="logo.jpg" alt="logo de Brownieterapia" class="logo-img">
+		<div> Brownie Terapia	</div>
+			
     </header>
     <section>
         <div class="detalles">
-            <!-- Aquí puedes escribir los detalles sobre tu página -->
             <p>Encuentra nuestros brownies por porciones y sabores cerca de ti</p>
         
         </div>
-        <!-- Añadimos un div donde se mostrará el mapa -->
         <div id="map"></div>
     </section>
-		<div id="map"></div>
 		
-
 		<script>
 			const base = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 				maxZoom: 20,
@@ -60,25 +42,14 @@
 			let map = L.map('map', {
 				layers: [base],
 				tap: false, // ref https://github.com/Leaflet/Leaflet/issues/7255
-				center: new L.LatLng(-18.010, -70.25),
-				zoom: 14,
+				center: new L.LatLng(-18.02, -70.24),
+				zoom: 13,
 
 			});
 
-			// detect fullscreen toggling
-			map.on('enterFullscreen', function () {
-				if (window.console) window.console.log('enterFullscreen');
-			});
-			map.on('exitFullscreen', function () {
-				if (window.console) window.console.log('exitFullscreen');
-			});
-
-			// toggler into fullscreen mode
-			const toggleFullscreen = function () {
-				map.toggleFullscreen();
-			};
-			
+					
 		</script>
 		<script src="main.js"></script>
 	</body>
+</html>
 </html>
