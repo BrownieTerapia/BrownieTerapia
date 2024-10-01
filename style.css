@@ -3,16 +3,18 @@ header {
     background-color: #FF8189;
     color: white;
     text-align: center;
-    padding: 27px;
-    margin: 0px;
-    font-size: 32px;
+    padding: 0px;
+    margin: 3px;
     font-family: 'Lexend';
-    overflow: hidden;
-    border-radius: 0 0 80% 80% / 80%;
     align-items: center;
 
 }
-
+#map {
+    align-items: center;
+    width: 100%;
+    height: 433px;
+    
+}
 .logo{
     display: flex;
     align-items: center;
