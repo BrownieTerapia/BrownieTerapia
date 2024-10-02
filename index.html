@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="https://unpkg.com/leaflet@latest/dist/leaflet.css" />
 		<link rel="stylesheet" href="style.css" />
-		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>		
+		<script src="leaflet.js"></script>		
 	</head>
 	<body>
 	    <header>
@@ -23,6 +23,8 @@
     </section>
 		
 		<script>
+			//var icon = L.icon({iconUrl :'img/head.png', iconSize:[10,10]})
+
 			const base = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
 				maxZoom: 20,
 				subdomains: 'abcd',
@@ -30,13 +32,13 @@
 			});
 			const map = L.map('map').setView([-18.02, -70.24], 13);
 			const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-			maxZoom: 19,
+			maxZoom: 20,
 			attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 			}).addTo(map);
-
-					
+				
 		</script>
+		
 		<script src="main.js"></script>
-		<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+		<!-- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script> -->
 	</body>
 </html>
