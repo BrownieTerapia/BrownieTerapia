@@ -22,7 +22,7 @@ L.tileLayer('https://.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   marker1.bindPopup("<b>Joabi</b><br>Parque Jesus María.");
   //.openPopup();
   
-  var marker2 = L.marker([-18.0095, -70.2517], {icon: myIcon}).addTo(map);
+  var marker2 = L.marker([-18.0095, -70.249277], {icon: myIcon}).addTo(map);
   marker2.bindPopup("<b>Golosilandia</b><br>Calderon de la Barca.");
   
   var marker3 = L.marker([-18.037459, -70.25109], {icon: myIcon}).addTo(map);
