@@ -38,7 +38,10 @@ L.tileLayer('https://.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   marker6.bindPopup("<b>Yogurt de casa Sabi</b><br>Avenida Leguía 980<br>Más arriba de tacna centro");
   
   var marker7 = L.marker([-18.00568, -70.22544], {icon: myIcon}).addTo(map);
-  marker7.bindPopup("<b>Cafetería Facsa Upt</b><br>Interior de la Universidad<br>Privada de Tacna");
+  marker7.bindPopup("<b>Cafetería Facsa Upt</b><br>Interior de la Universidad<br>Privada de Tacna</br><b>7 AM - 9 PM</b></br>Lunes a Viernes");
 
   var marker8 = L.marker([-18.01749, -70.240883], {icon: myIconP}).addTo(map);
   marker8.bindPopup("<b>Taller Principal</b><br>Frente a Cara Negra");
+  
+  var marker9 = L.marker([-18.012152, -70.2488692], {icon: myIconP}).addTo(map);
+  marker9.bindPopup("<b>Punto de Venta</b><br>");
