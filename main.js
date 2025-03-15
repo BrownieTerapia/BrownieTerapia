@@ -47,4 +47,4 @@ L.tileLayer('https://.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   marker9.bindPopup("<b>Punto de Venta</b><br>");
 
     var marker10 = L.marker([-18.010613, -70.254205], {icon: myIcon}).addTo(map);
-  marker4.bindPopup("<b>Kiosco Lucía</b><br><b>7 AM - 7 PM</b></br>Lunes a Viernes");
+  marker10.bindPopup("<b>Kiosco Lucía</b><br><b>7 AM - 7 PM</b></br>Lunes a Viernes");
