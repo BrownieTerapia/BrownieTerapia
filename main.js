@@ -18,7 +18,7 @@ L.tileLayer('https://.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     popupAnchor: [0, -50],
   });
  // Añade un marcador al mapa
-  var marker1 = L.marker([-18.017313, -70.237872], {icon: myIcon}).addTo(map);
+  var marker1 = L.marker([-18.017752, -70.237389], {icon: myIcon}).addTo(map); //ant -18.017313, -70.237872
   marker1.bindPopup("<b>Joabi</b><br>Parque Jesus María.");
   //.openPopup();
   
@@ -28,17 +28,17 @@ L.tileLayer('https://.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   var marker3 = L.marker([-18.037459, -70.25109], {icon: myIcon}).addTo(map);
   marker3.bindPopup("<b>Tienda Etérea</b><br>Frente a la plaza <br> Perez gamboa");
   
-  var marker4 = L.marker([-18.0167047, -70.25180], {icon: myIcon}).addTo(map);
-  marker4.bindPopup("<b>Tloc Cookies</b><br>Sir Jones 25");
+  //var marker4 = L.marker([-18.0167047, -70.25180], {icon: myIcon}).addTo(map);
+  //marker4.bindPopup("<b>Tloc Cookies</b><br>Sir Jones 25");
   
-  var marker5 = L.marker([-18.0129808, -70.24936], {icon: myIcon}).addTo(map);
-  marker5.bindPopup("<b>Comerical Jhilmar</b><br>Calle Apurímac 260");
+  //var marker5 = L.marker([-18.0129808, -70.24936], {icon: myIcon}).addTo(map);
+  //marker5.bindPopup("<b>Comerical Jhilmar</b><br>Calle Apurímac 260");
   
   var marker6 = L.marker([-18.0073255, -70.2475495], {icon: myIcon}).addTo(map);
   marker6.bindPopup("<b>Yogurt de casa Sabi</b><br>Avenida Leguía 980<br>Más arriba de tacna centro");
   
-  var marker7 = L.marker([-18.00568, -70.22544], {icon: myIcon}).addTo(map);
-  marker7.bindPopup("<b>Cafetería Facsa Upt</b><br>Interior de la Universidad<br>Privada de Tacna</br><b>7 AM - 9 PM</b></br>Lunes a Viernes");
+  //var marker7 = L.marker([-18.00568, -70.22544], {icon: myIcon}).addTo(map);
+  //marker7.bindPopup("<b>Cafetería Facsa Upt</b><br>Interior de la Universidad<br>Privada de Tacna</br><b>7 AM - 9 PM</b></br>Lunes a Viernes");
 
   var marker8 = L.marker([-18.01749, -70.240883], {icon: myIconP}).addTo(map);
   marker8.bindPopup("<b>Taller Principal</b><br>Frente a Cara Negra");
